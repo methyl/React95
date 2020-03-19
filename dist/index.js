@@ -897,7 +897,7 @@ var StyledCutout = styled__default.div(_templateObject$5(), function (_ref) {
 }, function (_ref9) {
   var shadow = _ref9.shadow,
       theme = _ref9.theme;
-  return console.log(theme) || shadow && "box-shadow:".concat(theme.insetShadow, ";");
+  return shadow && "box-shadow:".concat(theme.insetShadow, ";");
 }); // add padding prop ?
 
 var Cutout = function Cutout(_ref10) {
